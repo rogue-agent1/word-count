@@ -1,11 +1,17 @@
-# word-count
+# word_count
 
-Word/line/char counter like wc.
+Word frequency counter with stop word filtering
 
-Zero dependencies. Python 3.8+.
+Single-file, zero-dependency Python CLI tool.
 
 ## Usage
 
 ```bash
-python3 word_count.py --help
+python word_count.py --help
+```
+
+## Test
+
+```bash
+python -c "import word_count; word_count.test()"
 ```
