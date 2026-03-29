@@ -1,17 +1,9 @@
-# word_count
+# word-count
 
-Word frequency counter with stop word filtering
-
-Single-file, zero-dependency Python CLI tool.
+Word counter with readability metrics. Zero dependencies, single file, Python 3.8+.
 
 ## Usage
 
 ```bash
-python word_count.py --help
-```
-
-## Test
-
-```bash
-python -c "import word_count; word_count.test()"
+python3 word_count.py --help
 ```
